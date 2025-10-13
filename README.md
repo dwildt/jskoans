@@ -46,12 +46,24 @@ npm run test:coverage
 
 ## Como Completar os Koans
 
-1. **Abra o primeiro arquivo**: Comece com `src/01-task-properties.js`
-2. **Encontre as lacunas**: Procure por `____` no código
-3. **Complete o código**: Substitua `____` pelo código correto
-4. **Execute os testes**: Use `npm test` ou `npm run test:watch`
+1. **Execute os testes em modo watch**: Primeiro, rode `npm run test:watch`
+   - Este comando mantém os testes rodando automaticamente
+   - Cada vez que você salvar um arquivo, os testes serão executados
+   - O output mostrará seu progresso e indicará exatamente onde estão os erros
+
+2. **Abra o primeiro arquivo**: Comece com `src/01-task-properties.js`
+
+3. **Encontre as lacunas**: Procure por `____` no código
+
+4. **Complete o código**: Substitua `____` pelo código correto
+   - Use as dicas nos comentários
+   - Observe o output dos testes para ver o que está faltando
+
 5. **Veja os testes passarem**: Continue até todos os testes ficarem verdes
-6. **Próximo koan**: Avance para o próximo arquivo na ordem
+   - Os testes mostram exatamente qual função precisa ser corrigida
+   - Mensagens de erro indicam o que está esperado vs. o que foi recebido
+
+6. **Próximo koan**: Quando todos os testes do arquivo passarem, avance para o próximo na ordem
 
 ## Ordem dos Koans
 
