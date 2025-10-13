@@ -10,13 +10,15 @@
  * Substitua cada ____ pelo código correto para fazer os testes passarem.
  */
 
+
+
 /**
  * Cria uma tarefa simples com apenas título
  * @returns {Object} Tarefa com titulo e concluida
  */
 function criarTarefaSimples() {
   // Dica: retorne um objeto com propriedades titulo (string) e concluida (boolean false)
-  return ____;
+  return ___;
 }
 
 /**
