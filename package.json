@@ -1,0 +1,23 @@
+{
+  "name": "js-koan-todo",
+  "version": "1.0.0",
+  "description": "Aprenda JavaScript construindo uma lista de tarefas",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": ["src/**/*.js"],
+    "testMatch": ["**/tests/**/*.test.js"]
+  },
+  "keywords": ["javascript", "learning", "koan", "tutorial"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
