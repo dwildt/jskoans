@@ -11,13 +11,18 @@
   "jest": {
     "testEnvironment": "node",
     "coverageDirectory": "coverage",
-    "collectCoverageFrom": ["src/**/*.js"],
-    "testMatch": ["**/tests/**/*.test.js"]
+    "collectCoverageFrom": ["src/**/*.{js,ts}"],
+    "testMatch": ["**/tests/**/*.test.{js,ts}"],
+    "preset": "ts-jest",
+    "moduleFileExtensions": ["js", "ts"]
   },
-  "keywords": ["javascript", "learning", "koan", "tutorial"],
+  "keywords": ["javascript", "typescript", "learning", "koan", "tutorial"],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "@types/jest": "^29.5.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
   }
 }
