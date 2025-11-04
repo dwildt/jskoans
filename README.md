@@ -165,6 +165,12 @@ jskoans/
 - Use `console.log()` para entender o que está acontecendo
 - Consulte a documentação do JavaScript quando necessário
 
+## Projetos Relacionados
+
+Este projeto foi inspirado por outros projetos "koans" da comunidade:
+
+- [Ruby Koans](https://www.rubykoans.com/) - O projeto original que popularizou o formato de aprendizado através de koans
+
 ## Recursos Úteis
 
 - [MDN Web Docs - JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
